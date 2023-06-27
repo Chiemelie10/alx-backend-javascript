@@ -6,3 +6,6 @@ console.log(response instanceof Promise);
 response.then(function(data) {
   console.log(data);
 });
+response.then(function(error) {
+  console.error(error.message);
+});
