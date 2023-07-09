@@ -5,3 +5,10 @@ const teacher3 = {
     location: 'Nigeria',
     contract: false
 };
+const director1 = {
+    firstName: 'Nigel',
+    lastName: 'Eze',
+    location: 'London',
+    fullTimeEmployee: true,
+    numberOfReports: 17
+};
