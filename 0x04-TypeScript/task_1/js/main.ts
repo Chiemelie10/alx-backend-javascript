@@ -26,3 +26,10 @@ const director1: Directors = {
   fullTimeEmployee: true,
   numberOfReports: 17
 }
+
+function printTeacher(firstName: string, lastName: string): string {
+  return `${firstName[0]}. ${lastName}`;
+}
+
+const response = printTeacher('John', 'Doe');
+console.log(response);
